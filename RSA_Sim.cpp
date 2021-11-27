@@ -14,7 +14,7 @@ void RSA_Sim::Run(string messageToSend, int from) // from specifies which one wi
 
 void RSA_Sim::Log()
 {
-    std::cout << alice.GetInfo();
+    std::cout << std::endl << alice.GetInfo();
 
-    std::cout << bob.GetInfo();
+    std::cout << std::endl << bob.GetInfo();
 }
